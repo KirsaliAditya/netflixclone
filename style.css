@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.main {
+    background-image: url('images/background.jpg');
+    height: 80vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    height: 50px;
+}
+
+nav img{
+    width: 100px;
+    height: 50px;
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.text{
+    height: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.text :first-child{
+    font-weight: 600;
+    font-size: 48px;
+    padding: auto;
+}
+
+.text :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    padding: auto;
+}
+
+.text :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    padding: auto;
+}
